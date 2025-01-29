@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Pay Button</title>
+    <script crossorigin
+        src="https://applepay.cdn-apple.com/jsapi/1.latest/apple-pay-sdk.js"
+        ></script>
+</head>
+<body>
+    <h1>Apple Pay Integration</h1>
+    <button id="apple-pay-button" class="apple-pay-button"></button>
+
+    <script>
+        if (window.ApplePaySession && ApplePaySession.canMakePayments()) {
+            document.getElementById('apple-pay-button').addEventListener('click', async () => {
+                alert('Apple Pay button clicked');
+                // Add Apple Pay payment processing logic here
+            });
+        } else {
+            document.getElementById('apple-pay-button').style.display = 'none';
+            alert('Apple Pay is not available');
+        }
+    </script>
+</body>
+</html>
