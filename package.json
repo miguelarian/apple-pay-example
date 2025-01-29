@@ -1,0 +1,24 @@
+{
+  "name": "apple-pay-example",
+  "version": "1.0.0",
+  "description": "Apple Pay button example",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelarian/apple-pay-example.git"
+  },
+  "keywords": [
+    "Apple",
+    "Payments",
+    "ApplePay"
+  ],
+  "author": "Miguel Vela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelarian/apple-pay-example/issues"
+  },
+  "homepage": "https://github.com/miguelarian/apple-pay-example#readme"
+}
